@@ -13,14 +13,13 @@ export default function Header() {
           height={32}
         />
         <h1 className="sm:text-4xl text-2xl font-bold ml-2 tracking-tight">
-          twitterbio.io
+          exercitachat.vercel.app/
         </h1>
       </Link>
       <a
-        href="https://vercel.com/templates/next.js/twitter-bio"
+        href="https://exercitachat.vercel.app/"
         target="_blank"
-        rel="noreferrer"
-      >
+        rel="noreferrer">
         <Image
           alt="Vercel Icon"
           src="/vercelLogo.png"

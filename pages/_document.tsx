@@ -10,25 +10,25 @@ class MyDocument extends Document {
             name="description"
             content="Responda suas questões em segundos."
           />
-          <meta property="og:site_name" content="twitterbio.io" />
+          <meta property="og:site_name" content="exercitaaibio.io" />
           <meta
             property="og:description"
             content="Responda suas questões em segundos."
           />
-          <meta property="og:title" content="Twitter Bio Generator" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Twitter Bio Generator" />
+          <meta property="og:title" content="Exercita ai" />
+          <meta name="exercitaai:card" content="summary_large_image" />
+          <meta name="exercitaai:title" content="Exercita ai" />
           <meta
-            name="twitter:description"
+            name="exercitaai:description"
             content="Responda suas questões em segundos."
           />
           <meta
             property="og:image"
-            content="https://twitterbio.io/og-image.png"
+            content="https://cdn.discordapp.com/attachments/1082297301072105544/1126359728147136583/exercitaaa.png"
           />
           <meta
-            name="twitter:image"
-            content="https://twitterbio.io/og-image.png"
+            name="exercitaai:image"
+            content="https://cdn.discordapp.com/attachments/1082297301072105544/1126359728147136583/exercitaaa.png"
           />
         </Head>
         <body>
