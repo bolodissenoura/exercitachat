@@ -10,7 +10,7 @@ class MyDocument extends Document {
             name="description"
             content="Responda suas questões em segundos."
           />
-          <meta property="og:site_name" content="exercitaaibio.io" />
+          <meta property="og:site_name" content="exercita.ai" />
           <meta
             property="og:description"
             content="Responda suas questões em segundos."
@@ -24,11 +24,11 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://cdn.discordapp.com/attachments/1082297301072105544/1126359728147136583/exercitaaa.png"
+            content="https://cdn.discordapp.com/attachments/1082297301072105544/1126360787150184458/jsajsja.png"
           />
           <meta
             name="exercitaai:image"
-            content="https://cdn.discordapp.com/attachments/1082297301072105544/1126359728147136583/exercitaaa.png"
+            content="https://cdn.discordapp.com/attachments/1082297301072105544/1126360787150184458/jsajsja.png"
           />
         </Head>
         <body>
