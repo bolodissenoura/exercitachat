@@ -10,14 +10,14 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export type VibeType = "Professional" | "Casual" | "Funny";
+export type VibeType = "Direto ao ponto" | "Passo a passo";
 
 interface DropDownProps {
   vibe: VibeType;
   setVibe: (vibe: VibeType) => void;
 }
 
-let vibes: VibeType[] = ["Professional", "Casual", "Funny"];
+let vibes: VibeType[] = ["Direto ao ponto", "Passo a passo"];
 
 export default function DropDown({ vibe, setVibe }: DropDownProps) {
   return (
@@ -43,12 +43,10 @@ export default function DropDown({ vibe, setVibe }: DropDownProps) {
         enterTo="transform opacity-100 scale-100"
         leave="transition ease-in duration-75"
         leaveFrom="transform opacity-100 scale-100"
-        leaveTo="transform opacity-0 scale-95"
-      >
+        leaveTo="transform opacity-0 scale-95">
         <Menu.Items
           className="absolute left-0 z-10 mt-2 w-full origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
-          key={vibe}
-        >
+          key={vibe}>
           <div className="">
             {vibes.map((vibeItem) => (
               <Menu.Item key={vibeItem}>
@@ -59,8 +57,7 @@ export default function DropDown({ vibe, setVibe }: DropDownProps) {
                       active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                       vibe === vibeItem ? "bg-gray-200" : "",
                       "px-4 py-2 text-sm w-full text-left flex items-center space-x-2 justify-between"
-                    )}
-                  >
+                    )}>
                     <span>{vibeItem}</span>
                     {vibe === vibeItem ? (
                       <CheckIcon className="w-4 h-4 text-bold" />
